@@ -23,8 +23,7 @@ University of Seville (2025 – Present)
 **BSc in Physics**  
 University of Seville (2019 – 2025)  
 - Specialization in Electronics and Electromagnetism  
-- Final Thesis focused on electronics, instrumentation, and programming  
-- Honors: *High Distinction*
+- Final Thesis focused on electronics, instrumentation, and programming
 
 ---
 
