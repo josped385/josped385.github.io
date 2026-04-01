@@ -1,8 +1,8 @@
-Microelectronics-focused portfolio featuring circuit design, simulation projects, and programming work (MATLAB, Python, Verilog).
-
 # José Pedro Granado Olmo
 
-![20260401_184115](https://github.com/user-attachments/assets/580a3850-8b90-4890-8670-e0ee88898d11)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/580a3850-8b90-4890-8670-e0ee88898d11" width="200">
+</p>
 
 - [LinkedIn](https://www.linkedin.com/in/jose-pedro-granado-olmo)  
 - [GitHub](https://github.com/josped385)
