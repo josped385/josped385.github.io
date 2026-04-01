@@ -2,6 +2,8 @@ Microelectronics-focused portfolio featuring circuit design, simulation projects
 
 # José Pedro Granado Olmo
 
+![20260401_184115](https://github.com/user-attachments/assets/580a3850-8b90-4890-8670-e0ee88898d11)
+
 - [LinkedIn](https://www.linkedin.com/in/jose-pedro-granado-olmo)  
 - [GitHub](https://github.com/josped385)
 
