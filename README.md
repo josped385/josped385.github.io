@@ -83,6 +83,5 @@ University of Seville (2019 – 2025)
 
 ## License
 
-The code in this repository is licensed under the MIT License.
-
-All content (text, CV, and images) is licensed under Creative Commons BY-NC-ND 4.0.
+Copyright © 2026 [José Pedro Granado Olmo]. All rights reserved.
+No part of this repository, including source code, design, or documentation, may be reproduced, distributed, or modified in any form or by any means without the prior explicit written permission of the author.
