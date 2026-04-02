@@ -97,3 +97,13 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+.inline-link {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.inline-link:hover {
+    text-decoration: underline;
+}
