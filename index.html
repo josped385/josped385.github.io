@@ -15,31 +15,100 @@
     <nav>
         <button onclick="showSection('about')">About Me</button>
         <button onclick="showSection('education')">Education</button>
-        <button onclick="showSection('education')">Technical Skills</button>
-        <button onclick="showSection('projects')">Projects</button>
+        <button onclick="showSection('skills')">Technical Skills</button>
+        <button onclick="showSection('interests')">Interests</button>
+        <button onclick="showSection('languages')">Languages</button>
         <button onclick="showSection('contact')">Contact</button>
     </nav>
 
     <main>
         <section id="about" class="content active">
             <h2>About Me</h2>
-            <p>Aquí escribes sobre ti...</p>
+            <p>
+                Master’s student in Microelectronics with a background in Physics and specialization in electronics and electromagnetism. 
+                My main focus is on circuit design, modeling, and simulation, combining strong theoretical foundations with practical engineering tools.
+            </p>
+            <p>
+                I am particularly interested in micro- and nanoelectronics, as well as programming applied to the simulation and analysis of physical systems.
+            </p>
         </section>
 
         <section id="education" class="content">
             <h2>Education</h2>
-            <p>Aquí tu formación...</p>
+
+            <h3>MSc in Microelectronics: Design and Applications of Micro/Nanoscale Systems</h3>
+            <p>University of Seville (2025 – Present)</p>
+
+            <h3>BSc in Physics</h3>
+            <p>University of Seville (2019 – 2025)</p>
+
+            <h3>Specialization</h3>
+            <p>Electronics and Electromagnetism</p>
+            <p>Final Thesis focused on electronics, instrumentation, and programming</p>
         </section>
 
-        <section id="projects" class="content">
-            <h2>Projects</h2>
-            <p>Tus proyectos...</p>
+        <section id="skills" class="content">
+            <h2>Technical Skills</h2>
+
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>MATLAB</li>
+                <li>Python</li>
+                <li>Verilog</li>
+            </ul>
+
+            <h3>Design & Simulation Tools</h3>
+            <ul>
+                <li>Cadence Virtuoso</li>
+                <li>SPICE</li>
+                <li>ModelSim</li>
+                <li>Xilinx Vivado & Vitis</li>
+                <li>Synopsys Design Tools</li>
+            </ul>
+
+            <h3>Development Tools</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>Docker</li>
+            </ul>
+
+            <h3>Other Tools</h3>
+            <ul>
+                <li>LaTeX</li>
+                <li>Microsoft Office</li>
+                <li>Google Workspace</li>
+            </ul>
+        </section>
+
+        <section id="interests" class="content">
+            <h2>Technical Interests</h2>
+
+            <h3>Microelectronics & Circuit Design</h3>
+            <p>Strong interest in analog and digital circuit design, simulation, and validation.</p>
+
+            <h3>Simulation & Modeling</h3>
+            <p>Experience developing simulation-based solutions using MATLAB and Python.</p>
+
+            <h3>Hardware Description & FPGA</h3>
+            <p>Currently learning Verilog and digital design workflows during my MSc.</p>
+
+            <h3>Open Source</h3>
+            <p>Familiar with open-source ecosystems (e.g., Arduino) and collaborative development via GitHub.</p>
+        </section>
+
+        <section id="languages" class="content">
+            <h2>Languages</h2>
+            <ul>
+                <li>Spanish — Native</li>
+                <li>English — B1 (Cambridge Certificate)</li>
+            </ul>
         </section>
 
         <section id="contact" class="content">
-            <h2>Contact</h2>
-            <p>Email, LinkedIn, etc...</p>
+            <h2>Additional Information</h2>
+            <p>Open to internships and opportunities in microelectronics, circuit design, and simulation.</p>
         </section>
+
     </main>
 
     <script src="script.js"></script>
