@@ -99,11 +99,12 @@ footer p {
 }
 
 .inline-link {
-    color: #38bdf8;
+    color: #22c55e;  /* verde elegante */
     text-decoration: none;
     transition: 0.3s;
 }
 
 .inline-link:hover {
+    color: #4ade80;
     text-decoration: underline;
 }
