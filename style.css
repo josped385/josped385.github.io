@@ -62,3 +62,21 @@ h2 {
     border-bottom: 2px solid #38bdf8;
     padding-bottom: 5px;
 }
+
+.contact-link {
+    color: #e2e8f0;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.contact-link i {
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+.contact-link:hover {
+    color: #38bdf8;
+}
