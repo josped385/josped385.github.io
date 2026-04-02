@@ -80,3 +80,17 @@ h2 {
 .contact-link:hover {
     color: #ffffff;
 }
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #020617;
+    color: #94a3b8;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #1e293b;
+}
+
+footer p {
+    margin: 5px 0;
+}
