@@ -85,21 +85,17 @@ h2 {
 }
 
 footer {
-    width: 100vw;
+    margin-top: 50px;
+    padding: 20px;
     background-color: #020617;
-    color: #cbd5f5;
-    font-size: 0.85em;
-    line-height: 1.4;
+    color: #94a3b8;
+    font-size: 0.8em;
     text-align: center;
     border-top: 1px solid #1e293b;
-    margin-top: 50px;
-    padding: 25px 0;
 }
 
-footer .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 15px;
+footer p {
+    margin: 5px 0;
 }
 
 a.inline-link,
