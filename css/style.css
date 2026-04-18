@@ -108,3 +108,12 @@ a.inline-link:active {
 a.inline-link:hover {
     color: #4ade80 !important;
 }
+
+.project-item h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #22c55e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #22c55e;
+    padding-bottom: 5px;
+}
