@@ -18,7 +18,7 @@
         <button onclick="showSection('education')">Education</button>
         <button onclick="showSection('skills')">Technical Skills</button>
         <button onclick="showSection('interests')">Interests</button>
-        <button onclick="showSection('languages')">Languages</button>
+        <button onclick="showSection('projects')">Projects</button>
         <button onclick="showSection('contact')">Contact</button>
         <button onclick="downloadCV()">Download CV</button>
     </nav>
@@ -26,7 +26,7 @@
     <script>
     function downloadCV() {
         const link = document.createElement('a');
-        link.href = '/assets/cv/CV-Jose-Pedro-Granado-Olmo.pdf';
+        link.href = '/assets/cv/CV-Jose-Pedro-Granado-Olmo-EN.pdf';
         link.download = 'CV-Jose-Pedro-Granado-Olmo.pdf';
         document.body.appendChild(link);
         link.click();
@@ -44,6 +44,12 @@
             <p>
                 I am particularly interested in micro- and nanoelectronics, as well as programming applied to the simulation and analysis of physical systems.
             </p>
+
+            <h2>Languages</h2>
+            <ul>
+                <li>Spanish — Native</li>
+                <li>English — Preliminary English Test (B1) (Cambridge English)</li>
+            </ul>
         </section>
 
         <section id="education" class="content">
@@ -116,13 +122,54 @@
             <p>Familiar with open-source ecosystems (e.g., Arduino) and collaborative development via GitHub.</p>
         </section>
 
-        <section id="languages" class="content">
-            <h2>Languages</h2>
+        <section id="projects" class="content">
+    <h2>Projects</h2>
+
+    <div class="project-item">
+            <h3>Curve Tracer - Bachelor's Thesis</h3>
+            <p>
+                This project is part of my Bachelor's Thesis at the University of Seville, where I developed a program in both <strong>MATLAB</strong> and <strong>Python</strong> to create a <strong>Graphic User Interface (GUI)</strong> for characterizing diodes and MOSFET transistors using the <strong>National Instruments myDAQ</strong> data acquisition system.
+            </p>
+    
+            <p>
+                The <strong>GUI</strong> enables users to plot the characteristic curves of diodes and MOSFETs, and includes a curve fitting functionality that calculates fitting coefficients, their errors, and the Pearson correlation coefficient (R²). Additionally, the application allows users to export both the figures and raw data for further analysis.
+            </p>
+    
+            <p>
+                Key features of the project include:
+            </p>
             <ul>
-                <li>Spanish — Native</li>
-                <li>English — B1 (Cambridge Certificate)</li>
+                <li><strong>Help Menu:</strong> Integrated help system to guide the user through the application's functionalities.</li>
+                <li><strong>Sampling Methods:</strong> Support for multiple sampling methods, including Normal and Sweep sampling modes.</li>
+                <li><strong>Device Detection:</strong> Automatically detects the myDAQ device and confirms proper connection.</li>
+                <li><strong>Export Data:</strong> Allows data and figures to be exported for further analysis and reporting.</li>
             </ul>
-        </section>
+    
+            <p>
+                The project consists of several components:
+            </p>
+            <ul>
+                <li><strong>MATLAB Curve Tracer:</strong> Full code for the GUI developed using App Designer in MATLAB.</li>
+                <li><strong>Python Curve Tracer:</strong> Python version of the GUI built with tkinter, providing the same functionalities.</li>
+                <li><strong>Scripts:</strong> Simplified scripts to obtain diode and MOSFET curves without a GUI for quick measurements.</li>
+                <li><strong>Packed App:</strong> A standalone MATLAB app that does not require App Designer to run, simplifying user access.</li>
+            </ul>
+    
+            <p>
+                The full code and documentation for this project can be found on GitHub, and the thesis document is available through the following links:
+            </p>
+            <ul>
+                <li><a href="https://github.com/josped385/CurveTracer" target="_blank" rel="noopener noreferrer">Curve Tracer GitHub Repository</a></li>
+                <li><a href="https://idus.us.es/items/6e82c2ed-455b-42f9-9bf4-5ac16e94144d" target="_blank" rel="noopener noreferrer">Final Thesis Document</a></li>
+            </ul>
+            
+            <h4>Technical Overview:</h4>
+            <p>
+                The project was developed with the goal of providing a comprehensive and easy-to-use application for analyzing electronic components. It integrates the NI myDAQ hardware with advanced data analysis tools in MATLAB and Python, making it ideal for both academic and professional use.
+            </p>
+        </div>
+    
+    </section>
 
         <section id="contact" class="content">
             <h2>Contact</h2>
