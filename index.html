@@ -211,6 +211,130 @@
                 This project was developed to provide a user-friendly tool for calculating the trajectories of celestial bodies using fundamental momentum equations. It is designed to help students, researchers, or anyone interested in astrophysics to explore the dynamics of planetary motion in a more interactive and visual manner.
             </p>
         </div>
+        <div class="project-item">
+            <h3>Professional Filter Designer (Python GUI)</h3>
+            
+            <p>
+                This project consists of a <strong>Python-based application</strong> for the design and analysis of analog and digital filters, featuring an interactive <strong>Graphical User Interface (GUI)</strong> built with <strong>tkinter</strong> and advanced signal processing using <strong>NumPy</strong> and <strong>SciPy</strong>.
+            </p>
+        
+            <p>
+                The application allows users to design filters such as <strong>Butterworth, Chebyshev Type I & II, Elliptic, and Bessel</strong>, supporting multiple configurations including <strong>low-pass, high-pass, band-pass, and band-stop</strong> filters in both analog and digital domains.
+            </p>
+        
+            <p>
+                The tool provides a complete visualization and analysis environment, enabling users to evaluate filter performance through multiple representations:
+            </p>
+        
+            <ul>
+                <li><strong>Magnitude Response:</strong> Logarithmic frequency response in dB.</li>
+                <li><strong>Phase Response:</strong> Unwrapped phase analysis.</li>
+                <li><strong>Poles and Zeros:</strong> Complex-plane visualization for stability analysis.</li>
+                <li><strong>Impulse and Step Responses:</strong> Time-domain characterization.</li>
+                <li><strong>Group Delay:</strong> Frequency-dependent delay behavior.</li>
+                <li><strong>Noise Simulation:</strong> Evaluation of filter performance under additive white Gaussian noise (AWGN).</li>
+            </ul>
+        
+            <p>
+                Key features of the project include:
+            </p>
+        
+            <ul>
+                <li><strong>Automatic Filter Order Estimation:</strong> Uses SciPy optimization routines (<code>buttord</code>, <code>cheb1ord</code>, <code>ellipord</code>, etc.) to compute the minimum order that satisfies design specifications.</li>
+                <li><strong>Flexible Frequency Input:</strong> Supports both single cutoff frequencies and band definitions.</li>
+                <li><strong>Transfer Function Visualization:</strong> Displays the filter in analytical form (H(z) or numerator/denominator representation).</li>
+                <li><strong>Multi-Tab Visualization:</strong> Organized interface with dedicated tabs for each analysis domain.</li>
+                <li><strong>Project Persistence:</strong> Save and load configurations using JSON files.</li>
+                <li><strong>Integrated Help System:</strong> Built-in documentation describing filter types and usage.</li>
+            </ul>
+        
+            <p>
+                The application also includes a signal simulation module, where a sinusoidal signal is corrupted with controlled noise (based on a configurable <strong>SNR</strong>) and filtered in real time, allowing direct comparison between noisy and filtered signals.
+            </p>
+        
+            <p>
+                The full source code is available on GitHub:
+            </p>
+        
+            <ul>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" class="inline-link">Filter Designer GitHub Repository</a></li>
+            </ul>
+        
+            <h4>Technical Overview:</h4>
+            <p>
+                This project demonstrates a complete integration of <strong>digital signal processing (DSP)</strong> theory with practical software development. It combines filter synthesis, frequency-domain and time-domain analysis, and stochastic signal modeling within a user-friendly interface, making it suitable for both academic learning and engineering prototyping.
+            </p>
+        </div>
+        <div class="project-item">
+            <h3>Signal Analysis Pro – Python DSP Laboratory Tool</h3>
+        
+            <p>
+                This project is a comprehensive <strong>Python-based signal analysis application</strong> designed as an academic and engineering tool for studying <strong>Digital Signal Processing (DSP)</strong>. It features an interactive <strong>Graphical User Interface (GUI)</strong> developed with <strong>tkinter</strong>, integrating advanced numerical computation via <strong>NumPy</strong>, <strong>SciPy</strong>, and <strong>Matplotlib</strong>.
+            </p>
+        
+            <p>
+                The application enables users to generate, analyze, and process signals in both time and frequency domains, offering a structured environment suitable for laboratory work, teaching, and self-learning.
+            </p>
+        
+            <p>
+                Core functionalities include:
+            </p>
+        
+            <ul>
+                <li><strong>Signal Generation:</strong> Supports sine, cosine, square, and sawtooth waveforms with configurable amplitude, frequency, phase, sampling frequency, and duration.</li>
+                <li><strong>Time & Frequency Analysis:</strong> Real-time visualization of signals alongside their spectral representation using <strong>FFT</strong> and frequency-domain plots.</li>
+                <li><strong>Fourier Methods:</strong> Includes Discrete Fourier Transform (DFT) reconstruction and conceptual modules for Fourier series and continuous Fourier transform.</li>
+                <li><strong>Spectrogram Visualization:</strong> Time-frequency analysis for non-stationary signals.</li>
+            </ul>
+        
+            <p>
+                The application also provides a complete framework for studying sampling theory:
+            </p>
+        
+            <ul>
+                <li><strong>Sampling Analysis:</strong> Automatic verification of the Nyquist criterion and aliasing detection.</li>
+                <li><strong>Sampling Visualization:</strong> Graphical representation of discrete samples over continuous signals.</li>
+                <li><strong>Sinc Reconstruction:</strong> Ideal bandlimited reconstruction using sinc interpolation.</li>
+            </ul>
+        
+            <p>
+                Signal processing capabilities are further extended with filtering and noise analysis:
+            </p>
+        
+            <ul>
+                <li><strong>Digital Filter Design:</strong> Implementation of configurable Butterworth filters (low-pass, high-pass, band-pass).</li>
+                <li><strong>Zero-phase Filtering:</strong> Uses forward-backward filtering (<code>filtfilt</code>) to eliminate phase distortion.</li>
+                <li><strong>Noise Injection & SNR Estimation:</strong> Adds Gaussian noise and computes the resulting Signal-to-Noise Ratio (SNR).</li>
+            </ul>
+        
+            <p>
+                Additional features include:
+            </p>
+        
+            <ul>
+                <li><strong>Custom Signal Import:</strong> Load external datasets from CSV files.</li>
+                <li><strong>PDF Report Generation:</strong> Export basic analysis summaries using the <strong>ReportLab</strong> library.</li>
+                <li><strong>Academic Mode:</strong> Placeholder modules for guided exercises and theoretical explanations.</li>
+                <li><strong>Integrated Help System:</strong> Built-in documentation interface for user guidance.</li>
+            </ul>
+        
+            <p>
+                The application is structured as a modular DSP laboratory environment, combining signal synthesis, spectral analysis, sampling theory, filtering, and stochastic signal modeling within a unified interface.
+            </p>
+        
+            <p>
+                The full source code is available on GitHub:
+            </p>
+        
+            <ul>
+                <li><a href="#" target="_blank" rel="noopener noreferrer" class="inline-link">Signal Analysis Pro GitHub Repository</a></li>
+            </ul>
+        
+            <h4>Technical Overview:</h4>
+            <p>
+                This project demonstrates the integration of theoretical DSP concepts with practical software implementation. It is designed to serve as both a teaching platform and a prototyping tool, covering key topics such as Fourier analysis, sampling theory, digital filtering, and noise modeling in a highly interactive environment.
+            </p>
+        </div>
     
     </section>
 
