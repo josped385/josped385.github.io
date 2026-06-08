@@ -38,7 +38,7 @@
         <section id="about" class="content active">
             <h2>About Me</h2>
             <p>
-                Master’s student in Microelectronics with a background in Physics and specialization in electronics and electromagnetism. 
+                Master's student in Microelectronics with a background in Physics and specialization in electronics and electromagnetism. 
                 My main focus is on circuit design, modeling, and simulation, combining strong theoretical foundations with practical engineering tools.
             </p>
             <p>
@@ -263,6 +263,48 @@
             <h4>Technical Overview:</h4>
             <p>
                 This project demonstrates a complete integration of <strong>digital signal processing (DSP)</strong> theory with practical software development. It combines filter synthesis, frequency-domain and time-domain analysis, and stochastic signal modeling within a user-friendly interface, making it suitable for both academic learning and engineering prototyping.
+            </p>
+        </div>
+        <div class="project-item">
+            <h3>HDLStudio — IDE para HDLs creada 100% con IA</h3>
+
+            <p>
+                <strong>HDLStudio</strong> es un entorno de desarrollo integrado (IDE) para diseño digital con Verilog, SystemVerilog y VHDL. Combina edición de código, simulación, síntesis, place & route, visualización de formas de onda y esquemáticos en una sola interfaz. Todo el código ha sido generado con inteligencia artificial.
+            </p>
+
+            <p>
+                Está disponible como instalador autónomo para Windows (~100 MB) y como imagen Docker con todas las herramientas preinstaladas.
+            </p>
+
+            <p>
+                Funcionalidades principales:
+            </p>
+
+            <ul>
+                <li><strong>Editor de código:</strong> Resaltado de sintaxis, autocompletado, snippets y documentación al hover.</li>
+                <li><strong>Simulación dual:</strong> Compilación y ejecución con Icarus Verilog o Verilator (WSL).</li>
+                <li><strong>Visor de formas de onda:</strong> Integración con GTKWave para archivos VCD, FST, LXT y GHW.</li>
+                <li><strong>Síntesis Yosys:</strong> Salida a BLIF, JSON, Verilog y EDIF.</li>
+                <li><strong>Place & Route:</strong> nextpnr-ice40 para FPGAs Lattice iCE40.</li>
+                <li><strong>Visor de esquemáticos:</strong> Generación de esquemas gate-level mediante Yosys + Graphviz.</li>
+                <li><strong>Generador automático de testbenches:</strong> A partir de los puertos del módulo/entidad.</li>
+                <li><strong>Sistema de plugins:</strong> Extensible mediante scripts Python.</li>
+                <li><strong>Temas:</strong> Modos claro y oscuro.</li>
+            </ul>
+
+            <p>
+                Enlaces del proyecto:
+            </p>
+
+            <ul>
+                <li><a href="https://josped385.github.io/HDLStudio/" target="_blank" rel="noopener noreferrer" class="inline-link">Documentación y descarga</a></li>
+                <li><a href="https://github.com/josped385/HDLStudio" target="_blank" rel="noopener noreferrer" class="inline-link">Código fuente (GitHub)</a></li>
+                <li><a href="https://hub.docker.com/r/josped385/hdlstudio" target="_blank" rel="noopener noreferrer" class="inline-link">Imagen Docker</a></li>
+            </ul>
+
+            <h4>Technical Overview:</h4>
+            <p>
+                HDLStudio está construido con <strong>Python</strong> y <strong>PyQt6</strong> como framework de interfaz, utilizando <strong>QScintilla</strong> para el editor de texto. Los motores de síntesis y simulación (Yosys, nextpnr-ice40) se integran mediante paquetes WebAssembly (<strong>yowasp</strong>), eliminando la necesidad de compilaciones nativas en Windows. Se distribuye como ejecutable independiente empaquetado con <strong>PyInstaller</strong> e <strong>Inno Setup</strong>, y también como imagen <strong>Docker</strong> para entornos Linux. Todo el código ha sido generado mediante conversaciones con modelos de lenguaje (IA).
             </p>
         </div>
         <div class="project-item">
